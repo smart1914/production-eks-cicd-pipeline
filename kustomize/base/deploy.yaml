@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: web-container
-        image: aphraz/node-app:latest
+        image: 623035187793.dkr.ecr.us-east-1.amazonaws.com/nodejs-app:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
